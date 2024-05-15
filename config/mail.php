@@ -90,8 +90,8 @@ return [
         'roundrobin' => [
             'transport' => 'roundrobin',
             'mailers' => [
-                'ses',
-                'postmark',
+                'smtp',
+                'log',
             ],
         ],
 
